@@ -1,2 +1,1 @@
-# exercise1
-Exercise 1 
+You just need to clone then open with your browser.
