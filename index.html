@@ -7,8 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico">
     <title>Hello, world!</title>
     <style>
         .avatar {
@@ -22,47 +22,58 @@
             background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
             background-size: cover
         }
+        .p-5{
+            padding:2px;
+        }
+        table, table a{
+            color : #856404 !important;
+        }
+        table a:hover{
+            color:#ffc107!important
+        }
     </style>
 
   </head>
   <body>
     <div class="container-fluid justify-content-center">
         <div class="row justify-content-center mt-4 mb-4">
-            <div class="card col-4">
-                <img     src="https://media.licdn.com/dms/image/C5103AQED5y70JhjJAA/profile-displayphoto-shrink_200_200/0?e=1556150400&v=beta&t=CFHzLtMJWiLKY0LrDoGpkSmdLCKITkAxJvKb6yvcy4k" class="card-img-top avatar" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Hello I'm Ariyozi</h5>
-                    <p class="card-text text-justify ">
-                        Human that born in Jakarta an pasionate about tech especially in programming. Mostly easy to get confused to learn about programming such as bug and layout but as a front end im not alone. I like to learn something new and im not scared about it when stackoverflow still exist to tell me that im not the only one who get confused about code.
-                    </p>
-                </div>
-                <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-education" role="tab" aria-controls="home">Education</a>
-                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-hobbies" role="tab" aria-controls="profile">Hobbies</a>
-                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-contact" role="tab" aria-controls="messages">Contact</a>
-                </div>
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active list-group-item-primary alert mt-4" id="list-education" role="tabpanel" aria-labelledby="list-home-list">Just finished my bachelor in STMIK STIE Mikroskil Medan in Information System Major.</div>
-                    <div class="tab-pane fade list-group-item-danger alert mt-4" id="list-hobbies" role="tabpanel" aria-labelledby="list-profile-list">Code when people fall a sleep is my hobby.</div>
-                    <div class="tab-pane fade list-group-item-warning alert mt-4" id="list-contact" role="tabpanel" aria-labelledby="list-messages-list">Here is my contact
+            <div class="col-md-5 col-12 ">
+                <div class="card bg-light">
+                    <img     src="https://media.licdn.com/dms/image/C5103AQED5y70JhjJAA/profile-displayphoto-shrink_200_200/0?e=1556150400&v=beta&t=CFHzLtMJWiLKY0LrDoGpkSmdLCKITkAxJvKb6yvcy4k" class="card-img-top avatar" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Hello I'm Ariyozi</h5>
+                        <p class="card-text text-justify ">
+                            Human that born in Jakarta. Pasionate about tech especially in programming. Mostly easy to get confused to learn about programming such as bug and layout but as a front end im not alone. I like to learn something new and im not scared about it when stackoverflow still exist to tell me that im not the only one who get confused about code.
+                        </p>
+                    </div>
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-education" role="tab" aria-controls="home">Education</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-hobbies" role="tab" aria-controls="profile">Hobbies</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-contact" role="tab" aria-controls="messages">Contact</a>
+                    </div>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active list-group-item-primary alert mt-4" id="list-education" role="tabpanel" aria-labelledby="list-home-list">Just finished my bachelor in STMIK STIE Mikroskil Medan in Information System Major.</div>
+                        <div class="tab-pane fade list-group-item-danger alert mt-4" id="list-hobbies" role="tabpanel" aria-labelledby="list-profile-list">Code when people fall a sleep is my hobby.</div>
+                        <div class="tab-pane fade list-group-item-warning alert mt-4" id="list-contact" role="tabpanel" aria-labelledby="list-messages-list">Here is my contact
 
-                        <table class="table">
-                            <tr>
-                                <td>Github</td>
-                                <td>:</td>
-                                <td><a href="https://github.com/ariyozi">Ariyozi</a></td>
-                            </tr>
-                            <tr>
-                                <td>Instagram</td>
-                                <td>:</td>
-                                <td><a href="https://instagram.com/ariyozi">Ariyozi</a></td>
-                            </tr>
-                            <tr>
-                                <td>Whatsapp</td>
-                                <td>:</td>
-                                <td>082160611253</td>
-                            </tr>
-                        </table>
+                            <table class="table">
+                                <tr>
+                                    <td><i class="fa fa-github" aria-hidden="true"></i> Github</td>
+                                    <td>:</td>
+                                    <td><a target="blank" href="https://github.com/ariyozi">Ariyozi</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</td>
+                                    <td>:</td>
+                                    <td><a target="blank" href="https://instagram.com/ariyozi">Ariyozi</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</td>
+                                    <td>:</td>
+                                    <td>082160611253</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
